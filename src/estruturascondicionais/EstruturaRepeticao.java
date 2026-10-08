@@ -17,5 +17,13 @@ public class EstruturaRepeticao {
         for(int i =0; i <= 10; i++){
             System.out.println("For "+ i);
         }
+
+        int numeroDigitado = 5;
+        int soma =0;
+        while (numeroDigitado != 0){
+            soma += numeroDigitado;
+            numeroDigitado--;
+        }
+        System.out.println("Soma: "+soma);
     }
 }
